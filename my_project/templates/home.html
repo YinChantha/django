@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ='result' method="post">
+        {% csrf_token %}
+
+        Enter firstname:<input type="text" name="firstname"><br>
+        Enter lastname:<input type="text" name="lastname"><br>
+        Enter your register number: <input type="text" name="register"><br>
+        Enter your department: <input type="text" name="department"><br>
+        Enter your moblie-number: <input type="text" name="mobile"><br>
+        
+        <input type="submit" name="submit">
+
+    </form>
+</body>
+</html>
